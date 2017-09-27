@@ -3,11 +3,35 @@
 ![Version](https://cocoapod-badges.herokuapp.com/v/StroachPullDownView_iOS/badge.png)
 ![License](https://cocoapod-badges.herokuapp.com/l/StroachPullDownView_iOS/badge.(png|svg))
 
+The StroachPullDownView is a fully customizable pulldown-based view written in Swift.
+
 ### Installation
+
+StroachPullDownView is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+
+```ruby
+use_frameworks!
+pod 'StroachPullDownView_iOS', '~> 1.0.0-beta'
+```
+Run
+
+```ruby
+pod install
+```
+
+and **import** it in your source code.
+
+```swift
+import StroachPullDownView_iOS
+```
 
 ### Usage
 
+// TODO
+
 ### Contact
+
+If you have any questions feel free to send an email to lukas.truemper@outlook.de.
 
 ### License
 

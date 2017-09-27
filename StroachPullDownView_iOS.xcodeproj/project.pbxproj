@@ -13,6 +13,8 @@
 		E8C25C4F1F7BFF3C0020E9B4 /* StroachPullDownBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C25C4B1F7BFF3C0020E9B4 /* StroachPullDownBar.swift */; };
 		E8C25C501F7BFF3C0020E9B4 /* StroachPullDownSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C25C4C1F7BFF3C0020E9B4 /* StroachPullDownSegments.swift */; };
 		E8C25C511F7BFF3C0020E9B4 /* StroachPullDownTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C25C4D1F7BFF3C0020E9B4 /* StroachPullDownTitle.swift */; };
+		F031896A29A756FD5F1246A3 /* Pods_StroachPullDownView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296C0076470ED903EDDCD3BA /* Pods_StroachPullDownView_iOS.framework */; };
+		FC54C80E7D5B01F57D8313A8 /* Pods_StroachPullDownView_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71709AEB605D2090BB39C290 /* Pods_StroachPullDownView_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078155DB3DEDD5CF722F4E7D /* Pods-StroachPullDownView_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StroachPullDownView_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StroachPullDownView_iOSTests/Pods-StroachPullDownView_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		296C0076470ED903EDDCD3BA /* Pods_StroachPullDownView_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StroachPullDownView_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71709AEB605D2090BB39C290 /* Pods_StroachPullDownView_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StroachPullDownView_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A40DF89C4C5FE6772D2385 /* Pods-StroachPullDownView_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StroachPullDownView_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StroachPullDownView_iOSTests/Pods-StroachPullDownView_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5B27378FFE825CF6E4AD831 /* Pods-StroachPullDownView_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StroachPullDownView_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-StroachPullDownView_iOS/Pods-StroachPullDownView_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		E83F4ABD1F73ED62006B6123 /* StroachPullDownView_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StroachPullDownView_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83F4AC11F73ED63006B6123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E83F4AC61F73ED63006B6123 /* StroachPullDownView_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StroachPullDownView_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +42,7 @@
 		E8C25C4B1F7BFF3C0020E9B4 /* StroachPullDownBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StroachPullDownBar.swift; sourceTree = "<group>"; };
 		E8C25C4C1F7BFF3C0020E9B4 /* StroachPullDownSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StroachPullDownSegments.swift; sourceTree = "<group>"; };
 		E8C25C4D1F7BFF3C0020E9B4 /* StroachPullDownTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StroachPullDownTitle.swift; sourceTree = "<group>"; };
+		FEE85C8239E5B2862766A421 /* Pods-StroachPullDownView_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StroachPullDownView_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StroachPullDownView_iOS/Pods-StroachPullDownView_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F031896A29A756FD5F1246A3 /* Pods_StroachPullDownView_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				E83F4AC71F73ED63006B6123 /* StroachPullDownView_iOS.framework in Frameworks */,
+				FC54C80E7D5B01F57D8313A8 /* Pods_StroachPullDownView_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86539A4F098034AC50679496 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEE85C8239E5B2862766A421 /* Pods-StroachPullDownView_iOS.debug.xcconfig */,
+				E5B27378FFE825CF6E4AD831 /* Pods-StroachPullDownView_iOS.release.xcconfig */,
+				A0A40DF89C4C5FE6772D2385 /* Pods-StroachPullDownView_iOSTests.debug.xcconfig */,
+				078155DB3DEDD5CF722F4E7D /* Pods-StroachPullDownView_iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E3D2B0A00D8B447D356A0BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				296C0076470ED903EDDCD3BA /* Pods_StroachPullDownView_iOS.framework */,
+				71709AEB605D2090BB39C290 /* Pods_StroachPullDownView_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E83F4AB31F73ED62006B6123 = {
 			isa = PBXGroup;
 			children = (
 				E83F4ABF1F73ED62006B6123 /* StroachPullDownView_iOS */,
 				E83F4ACA1F73ED63006B6123 /* StroachPullDownView_iOSTests */,
 				E83F4ABE1F73ED62006B6123 /* Products */,
+				86539A4F098034AC50679496 /* Pods */,
+				8E3D2B0A00D8B447D356A0BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,10 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E83F4AD11F73ED63006B6123 /* Build configuration list for PBXNativeTarget "StroachPullDownView_iOS" */;
 			buildPhases = (
+				DC067201797C92778B8B4A50 /* [CP] Check Pods Manifest.lock */,
 				E83F4AB81F73ED62006B6123 /* Sources */,
 				E83F4AB91F73ED62006B6123 /* Frameworks */,
 				E83F4ABA1F73ED62006B6123 /* Headers */,
 				E83F4ABB1F73ED62006B6123 /* Resources */,
+				BB0C304DEFDAFBC98B6D11CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E83F4AD41F73ED63006B6123 /* Build configuration list for PBXNativeTarget "StroachPullDownView_iOSTests" */;
 			buildPhases = (
+				35F8AF7B5EF5FC81656D5828 /* [CP] Check Pods Manifest.lock */,
 				E83F4AC21F73ED63006B6123 /* Sources */,
 				E83F4AC31F73ED63006B6123 /* Frameworks */,
 				E83F4AC41F73ED63006B6123 /* Resources */,
+				BE5B30FC465F2079CB4388BB /* [CP] Embed Pods Frameworks */,
+				E16BDA84C5015D68048C8422 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +236,90 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F8AF7B5EF5FC81656D5828 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StroachPullDownView_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB0C304DEFDAFBC98B6D11CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StroachPullDownView_iOS/Pods-StroachPullDownView_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5B30FC465F2079CB4388BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StroachPullDownView_iOSTests/Pods-StroachPullDownView_iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC067201797C92778B8B4A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StroachPullDownView_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E16BDA84C5015D68048C8422 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StroachPullDownView_iOSTests/Pods-StroachPullDownView_iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E83F4AB81F73ED62006B6123 /* Sources */ = {
@@ -346,6 +467,7 @@
 		};
 		E83F4AD21F73ED63006B6123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE85C8239E5B2862766A421 /* Pods-StroachPullDownView_iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -369,6 +491,7 @@
 		};
 		E83F4AD31F73ED63006B6123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B27378FFE825CF6E4AD831 /* Pods-StroachPullDownView_iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -391,6 +514,7 @@
 		};
 		E83F4AD51F73ED63006B6123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A40DF89C4C5FE6772D2385 /* Pods-StroachPullDownView_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -406,6 +530,7 @@
 		};
 		E83F4AD61F73ED63006B6123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078155DB3DEDD5CF722F4E7D /* Pods-StroachPullDownView_iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

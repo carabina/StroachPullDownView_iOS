@@ -1,4 +1,4 @@
-## StroachTabBar for iOS
+## StroachPullDownView for iOS
 
 ![Version](https://cocoapod-badges.herokuapp.com/v/StroachPullDownView_iOS/badge.png)
 ![License](https://cocoapod-badges.herokuapp.com/l/StroachPullDownView_iOS/badge.(png|svg))

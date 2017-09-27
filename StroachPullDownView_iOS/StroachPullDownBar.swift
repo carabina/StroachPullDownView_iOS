@@ -141,7 +141,7 @@ open class StroachPullDownBar: StroachPullDownView {
     
 }
 
-@objc protocol StroachPullDownBarDelegate: StroachPullDownViewDelegate {
+@objc public protocol StroachPullDownBarDelegate: StroachPullDownViewDelegate {
     
     @objc optional func pullDownViewDidTapOnLeftAccessoryButton(pullDownView: StroachPullDownBar);
     

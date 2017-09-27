@@ -11,7 +11,7 @@ StroachPullDownView is available through [CocoaPods](https://cocoapods.org). To 
 
 ```ruby
 use_frameworks!
-pod 'StroachPullDownView_iOS', '~> 1.0.1'
+pod 'StroachPullDownView_iOS', '~> 1.0.2'
 ```
 Run
 

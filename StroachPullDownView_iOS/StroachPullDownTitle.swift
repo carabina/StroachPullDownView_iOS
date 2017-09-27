@@ -109,7 +109,7 @@ open class StroachPullDownTitle: StroachPullDownBar {
     
 }
 
-@objc protocol StroachPullDownTitleDelegate: StroachPullDownBarDelegate {
+@objc public protocol StroachPullDownTitleDelegate: StroachPullDownBarDelegate {
     
     @objc optional func pullDownViewDidTapOnTitleButton(pullDownView: StroachPullDownTitle);
     

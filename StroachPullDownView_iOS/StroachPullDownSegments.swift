@@ -83,7 +83,7 @@ open class StroachPullDownSegments: StroachPullDownBar {
     
 }
 
-@objc protocol StroachPullDownSegmentsDelegate: StroachPullDownBarDelegate {
+@objc public protocol StroachPullDownSegmentsDelegate: StroachPullDownBarDelegate {
     
     @objc optional func pullDownViewDidSelectSegment(pullDownView: StroachPullDownSegments, AtIndex index: Int);
     

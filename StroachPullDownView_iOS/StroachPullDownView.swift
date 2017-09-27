@@ -215,7 +215,7 @@ open class StroachPullDownView: UIView {
 /**
  
 */
-@objc protocol StroachPullDownViewDelegate: class {
+@objc public protocol StroachPullDownViewDelegate: class {
     
     @objc optional func pullDownViewDidChangeExpansion(pullDownView: StroachPullDownView);
     
